@@ -22,8 +22,10 @@ This replaces `start_protected_game.exe` with a minimal Windows PE that:
    ```
    Back up the original first if desired.
 
-2. Set Launch Option (Right Click game in steam > "properties..." > General -> Launch Options) to: EOS_USE_ANTICHEATCLIENTNULL=1 %command%
-
+2. Set Launch Option (Right Click game in steam > "properties..." > General -> Launch Options) to: 
+```
+EOS_USE_ANTICHEATCLIENTNULL=1 %command%
+```
 3. Launch from Steam as usual.
 
 ## Building from source
